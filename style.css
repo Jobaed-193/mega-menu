@@ -1,0 +1,43 @@
+
+.header-menu{
+  background-color: aqua;
+}
+.header-menu ul{
+  text-align: center;
+}
+.header-menu ul li{
+  display: inline-block;
+  border-left: 1px solid white;
+  margin-left: -4px;
+}
+.header-menu ul li a{
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(6, 68, 83);
+  
+}
+.header-menu ul li a:hover{
+  background-color: teal;
+}
+
+.header-menu ul li :last-child{
+  border-right:1px solid white ;
+}
+
+/* dropdown-menu */
+/* .header-menu ul li{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.header-menu ul li ul{
+position: absolute;
+top: 100%;
+left: 0;
+height: 200px;
+width: 200px;
+background-color: teal;
+} */
